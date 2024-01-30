@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .blog-post {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .body{
+    display: auto;
+  }
+  

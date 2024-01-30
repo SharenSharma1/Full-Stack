@@ -1,0 +1,95 @@
+.profile-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 30px 0 0;  
+  }
+  /* Blog Name styles */
+.blog-name {
+  font-size: 15; /* Set the font size */
+  color: #f7f7f7; /* Set the text color */
+  margin-bottom: 0px !important ; 
+  margin-right: auto;
+  margin: 0 15px 0 0;/* Add some bottom margin for spacing */
+  text-align: center; /* Center-align the text */
+}
+
+/* Add additional styles if needed, such as font-family, font-weight, etc. */
+
+ /* Navbar styles */
+.navbar {
+  background-color: #4439a7ef !important; /* Set the background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.navbar-brand img {
+  border-radius: 50%; /* Make the brand logo circular */
+}
+
+.navbar-toggler-icon {
+  background-color: #333; /* Set the color of the toggle icon */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 7px; /* Add some spacing between navigation items */
+}
+.navbar-nav .nav-item:nth-child(1) {
+  margin-right: 15px; /* Move "Blog Posts" to the right */
+}
+
+.navbar-nav .nav-item:nth-child(2) {
+  margin-right: 15px; /* Move "Add Post" to the right */
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* Set the color of the navigation links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Dropdown styles */
+.dropdown-menu {
+  border-radius: 8px; /* Round the corners of the dropdown menu */
+}
+
+.dropdown-item {
+  color: #333; /* Set the color of dropdown items */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Change background color on hover */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #f8f9fa; /* Set the background color of the footer */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow at the top */
+}
+
+.social-icons a {
+  margin-right: 10px; /* Add spacing between social icons */
+}
+
+/* Copyright text */
+.text-muted {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-right: 10px; /* Remove right margin for smaller screens */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+
+  .social-icons a {
+    margin-right: 0; /* Remove margin between social icons for smaller screens */
+  }
+}
+ 
+
+
+  

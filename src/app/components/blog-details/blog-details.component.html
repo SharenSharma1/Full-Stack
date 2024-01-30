@@ -1,0 +1,20 @@
+<div class="container mt-4">
+    <div class="card">
+      <img [src]="featuredImageUrl" class="card-img-top" alt="Featured Image">
+      <div class="card-body">
+        <h2 class="card-title">{{ blogPost.title }}</h2>
+        <p class="card-text">{{ blogPost.shortDescription }}</p>
+        <p class="card-text">{{ blogPost.content }}</p>
+        <p class="card-text"><small class="text-muted">Published by: {{ blogPost.author }} on {{ blogPost.publishedDate | date }}</small></p>
+        <p class="card-text">User Handle: {{ blogPost.userHandle }}</p>
+        <p class="card-text">Visibility: {{ blogPost.isVisible ? 'Public' : 'Private' }}</p>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-primary" [routerLink]="['/blogposts']">
+          <div class="mr-1"></div>
+          Back to Blog Posts
+        </button>
+      </div>
+    </div>
+  </div>
+  
