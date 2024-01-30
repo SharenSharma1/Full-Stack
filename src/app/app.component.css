@@ -34,10 +34,12 @@
   margin-right: 7px; /* Add some spacing between navigation items */
 }
 .navbar-nav .nav-item:nth-child(1) {
+  color: antiquewhite;
   margin-right: 15px; /* Move "Blog Posts" to the right */
 }
 
 .navbar-nav .nav-item:nth-child(2) {
+  color: antiquewhite;
   margin-right: 15px; /* Move "Add Post" to the right */
 }
 
